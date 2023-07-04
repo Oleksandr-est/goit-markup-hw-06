@@ -80,7 +80,7 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: -5px;
     width: 100%;
     height: 4px;
     border-radius: 2px;
@@ -182,11 +182,13 @@ margin-bottom: 36px;
     text-align: unset;
 }
 
-
+.advantage-block {
+    display: none;
+}
 
 /*-------section personal tablet--------------------------*/
 img {
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .personal-list {
@@ -209,15 +211,24 @@ width: calc((100% - 24px) / 2);
 }
 
 .customers-list {
-    flex-direction: row;
+    /*flex-direction: row;
     flex-wrap: wrap;
-    gap: 72px 24px;
+    gap: 72px 24px;*/
+    
 }
 
 .customers-item {
+    
+          
+            height: 88px;
     width: calc((100% - 24px * 2) / 3);
 }
 
+
+.customers-link {
+    width: 100%;
+    height: 100%;
+}
 /*-------section footer tablet--------------------------*/
 
 .footer-generation {
@@ -228,11 +239,13 @@ width: calc((100% - 24px) / 2);
 flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    text-align: start;
+    text-align: left;
     margin-right: auto;
     margin-left: auto;
     
 }
+
+
 
 .footer-text {
     text-align: left;
@@ -240,14 +253,10 @@ max-width: 264px;
 
 }
 
-
-
-.footer-text-field {
-    
-}
-
 .footer-email {
-    
+
+
+
 }
 
 .footer-form {
@@ -267,8 +276,8 @@ max-width: 264px;
 
 .title-email {
     width: 75px;
-    text-align: start;
-    margin: auto;
+    text-align: left;
+    
     
     }
 
@@ -311,9 +320,9 @@ h6 {
 }
 
 img {
-    display: block;
+    /*display: block;
     max-width: 100%;
-    height: auto;
+    height: auto;*/
 }
 
 ul {
@@ -434,7 +443,7 @@ ul {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -7px;
+    bottom: -9px;
     width: 100%;
     height: 4px;
     border-radius: 2px;
@@ -658,6 +667,7 @@ ul {
 .app-list {
     display: flex;
     gap: 24px;
+    width: calc(100% - 24px*3) / 3;
 }
 
 
